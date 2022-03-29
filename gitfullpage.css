@@ -1,0 +1,1073 @@
+*{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 21px;
+}
+
+
+.fp-sr-only {
+    display: none;
+}
+
+#fp-nav {
+    display: none;
+}
+
+body {
+    font-family: "Noto Sans KR";
+    margin: 0;
+}
+
+/*헤더영역*/
+/*헤더영역*/
+
+.banner {
+    width: 200px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    Letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 6px 15px;
+    color: grey;
+}
+
+header ul li a:hover, header ul li a.active {
+    background: white;
+    color: #2b1055;
+}
+
+/*헤더영역*/
+/*헤더영역*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    transform: translateY(100%);
+}
+
+.h1moon {
+    font-size: 4em;
+    text-align: center;
+
+}
+
+/*#btn {*/
+/*    margin-top: 5vh;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    padding: 8px 30px;*/
+/*    border-radius: 40px;*/
+/*    background: grey;*/
+/*    color: #2b1055;*/
+/*    font-size: 1.5em;*/
+/*    transform: translateY(-150%);*/
+/*    margin-left: 50%;*/
+
+/*}*/
+
+/*span {*/
+/*    background: white !important;*/
+/*}*/
+
+
+
+
+.fp-tableCell {
+    height: 100px;
+    width: 100vw;
+}
+
+/*#text-box{*/
+/*    height: 14vh;*/
+/*    width: 40vw;*/
+/*    text-align: left;*/
+/*    transform: translateY(150%);*/
+/*    margin-left: 10vw;*/
+/*    font-size: 1.3vw;*/
+
+
+/*}*/
+
+/*inner ul {*/
+/*    color: orange;*/
+/*}*/
+
+.maintitle{
+    color: dodgerblue;
+    font-weight: bold;
+
+}
+
+
+.vcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vdeo{
+    width: 1500px;
+    height: 50vh;
+}
+
+.img-wrap0 {
+
+    margin: auto;
+    position: relative;
+    /*border: 1px solid red;*/
+    width: 100vw;
+    height: 100vh;
+    max-width: 2450px;
+    max-height: 1170px;
+
+}
+
+
+
+.img-wrap1 {
+    margin-left: 30vw;
+    margin-top: 10vw;
+    /*margin: 100px;*/
+    position: absolute;
+    /*border: 1px solid red;*/
+    max-width: 2450px;
+    max-height: 1170px;
+
+
+}
+
+.img-1 {
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    z-index: 4;
+}
+
+.img-2 {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    /*top: -100px;*/
+    bottom: 0;
+}
+
+.img-3 {
+    position: absolute;
+    z-index: 1;
+    right: 17vw;
+    bottom: 9vw;
+}
+
+/*.s1 #text-box p {*/
+/*    padding: 30px 30px 30px;*/
+/*    !*패딩은 시계바늘*!*/
+/*}*/
+
+
+.s0 {
+
+    position: relative;
+    background: #041323 url("AdobeStock_285772374_Preview.jpeg") no-repeat center;
+    background-blend-mode: multiply;
+
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.text-box1 {
+    margin-top: 2vh;
+    position: relative;
+    height: auto;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+.s1 {
+    background: #041323 url("METRO_4.png") no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+
+    height: 90vh;
+    width: 100vw;
+}
+
+.eth{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    transform: translateY(-16vh);
+    left: -2vw;
+
+}
+.nft{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    z-index: 99;
+    transform: translateY(-10vh);
+    left: -1vw;
+}
+
+
+.s2 {
+    background: #041323 url("대성당.jpeg") no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+
+}
+.roadmap{
+    /*background-color: #7597de;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*text-align: center;*/
+    padding : 100px;
+    text-align: center;
+    color: greenyellow;
+}
+
+
+/*여기서 부터 로드맵 버튼 영역*/
+.button_case
+{
+
+    display: flex;
+    justify-content: center;
+}
+
+.button_case #opensea  {
+    cursor: pointer;
+}
+
+#opensea :hover {
+    cursor : pointer;
+}
+
+/*여기까지 로드맵 버튼 영역*/
+
+
+.slide-container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    transform: translateY(-120%)
+}
+
+.image-slider{
+    width: 1005;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7;
+
+
+}
+
+#img{
+    border: 1px solid greenyellow;
+    border-radius: 30px;
+}
+
+.slides-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+
+ #img{
+    position : relative;
+    width: 10vw;
+    height: 17vh;
+     transition: .5s;
+     filter: saturate(10%);
+     background: url("cavereal.png");
+}
+
+.button{
+    position: absolute;
+    width : 240px;
+    height: 370px;
+    transition: .5s;
+    background-color: rgba(0,0,0,.4);
+}
+
+.button:hover{
+    background-color: rgba(0,0,0,.2);
+}
+
+#slider-span1:target ~ .image-slider #img,
+#slider-span1:target ~ .image-slider #button{
+    width: 300px;
+    height: 580px;
+    filter: saturate(100%);
+}
+
+/*#roadmapcon{*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
+
+#roadcon{
+    /*background: gain*/
+    border: 1px red solid;
+}
+
+#roadrow{
+    margin: 15px;
+    padding: 10px;
+    border: 1px red solid;
+    /*background: #7597de;*/
+}
+
+#roadcol, .col-8{
+    height: 2vh;
+    text-align: center;
+}
+
+
+.lili{
+    margin: 2vh 20px 8vh 20px;
+    text-align: center;
+    border: 1px solid steelblue;
+    border-radius: 50px;
+    padding: 80px 10px 80px 10px;
+    background: url("meta.jpeg") no-repeat;
+    background-size: cover;
+
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+.spanc{
+    color: greenyellow;
+}
+
+.divcolor{
+    color: greenyellow;
+}
+
+.divcc{
+    background-color: red;
+}
+
+.divccc{
+    /*background-color: yellow;*/
+}
+
+.s3 {
+    position: relative;
+    background: #041323 url("한옥.jpeg") no-repeat center;
+    background-blend-mode: multiply;
+
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+s0::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top.#1c0522, transparent);
+    z-index: 1000;
+}
+
+
+/*이건 용가리이미지 슬라이딩*/
+.box_body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #041323 url("한옥.jpeg");
+    background-blend-mode: multiply;
+    background-size: center;
+}
+
+.bbox{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*min-height: 100vh;*/
+    /*background: #000;*/
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    animation: animate 33s linear infinite;
+
+}
+
+@keyframes animate {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.bbox span{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(482px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
+    /*background: url("https://post-phinf.pstatic.net/MjAxNzA2MjRfMTMw/MDAxNDk4MzEwODgwODY0.UcQ13nHc5R8v4xsTogonmj-Bl2bELASinldes9h-hHgg.-Vog6qq_yuUUXpNFcmifJwIEcBpymnvf1FLObKRH5iog.JPEG/maxresdefault.jpg?type=w1200");*/
+}
+
+.bbox span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slidein {
+    
+}
+
+
+s0 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000%;
+    height: 100vh;
+    object-fit: fill;
+    pointer-events: none;
+    /*transform: translateY(-50%);*/
+}
+
+/*섹션2 설명 구역*/
+
+.inner {
+    margin: auto;
+
+    /*box-sizing: border-box;*/
+    /*border: 1px red solid;*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*margin-left: 30vw;*/
+    top: 30vh;
+    /*transform: translateY(35vh);*/
+
+
+
+}
+
+.inner h3 {
+
+    color: dodgerblue;
+    text-align: center;
+    margin: auto;
+}
+
+.inner h3 {
+
+    /*padding-top: 20vh;*/
+    /*transform: translateX(50%);*/
+    position: relative;
+    /*text-align: center;*/
+}
+
+.story-textbox{
+    width: 100%;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*border: 1px solid red;*/
+
+}
+
+.story-text1 {
+    color: white;
+    text-align: center;
+
+}
+
+/*섹션2 설명 구역*/
+
+
+
+/*컨택트영역*/
+
+.contacttitle{
+    font-size: 50px;
+}
+
+.contact_container{
+    width: 100%;
+    margin: 10px;
+    padding: 300px 0 300px 0;
+    /*background: yellow;*/
+
+}
+
+.contact_text{
+    /*margin: 0;*/
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.con_vcon{
+    margin: auto;
+    /*background: cyan;*/
+    display: flex;
+    justify-content: center;
+}
+
+.giphy-embed{
+    border: 1px solid dodgerblue;
+    border-radius: 15px;
+}
+
+
+/*푸터영역*/
+.footertitle{
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transform: translateY(0%);
+}
+
+footer{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    font-family: "Noto Sans KR";
+    padding-top: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer_content{
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer_content p {
+    max-width: 1000px;
+    margin: 10px auto;
+    line-height: 14px;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color:  white;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a : hover i{
+    color: greenyellow;
+}
+
+.footer_bottom{
+
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    color: greenyellow;
+}
+
+.footer_bottom p {
+    font-size: 15px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
+
+/*.footer_bottom span*/
+
+
+/*미디어쿼리 영역 시작*/
+
+@media only screen and( min-width: 660px) {
+
+}
+
+@media only screen and( max-width: 3840px) {
+    h1, h2 {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+}
+
+.s0 .s1 .s2 .s3 {
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/*미디어쿼리*/
+
+
+
+/*아이폰 se*/
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    .img-1{
+        display: none;
+    }
+    .eth{
+        display: none;
+    }
+    .nft{
+        display: none;
+    }
+    .img-wrap1{
+        display: none;
+    }
+
+    #p1{
+        height: 100%;
+    }
+
+    #p3{
+        height: 100%;
+    }
+
+    #p4{
+        height: 100%;
+    }
+
+    .roadmap{
+        padding-top: 0px;
+        height: 100%;
+    }
+
+    .story_sub_title{
+        /*margin-left: 140px;*/
+    }
+
+    .story-text1{
+
+        margin-top: 2vh;
+        margin-left: 60px;
+        padding: auto;
+        position: relative;
+        height: auto;
+        /*font-weight: bold;*/
+        text-align: center;
+        color: white;
+    }
+}
+
+/*아이폰 12프로*/
+@media screen and (max-width : 390px) and (max-height: 844px) {
+    .story-text1{
+        margin-left: 80px;
+
+    }
+
+    .footer_content{
+        width: 380px;
+        margin-left: 50px;
+    }
+    .footer_bottom{
+        margin-left: 50px;
+    }
+}
+
+
+/*아이폰 xr*/
+@media screen and (max-width:414px) and (max-height: 896px)  {
+    *{
+        font-size: 12px;
+    }
+
+    #p1, #p2, #p3, #p4{
+        width: 128%;
+    }
+
+    #p3{
+        height: 100%;
+    }
+
+    .eth, .nft, .img-1{
+        display: none;
+    }
+
+    .story-textbox{
+        margin: auto;
+        margin-left: 40px;
+
+    }
+
+
+    .text-box1{
+        padding: 5px;
+    }
+
+    .roadmap{
+        display: flex;
+        justify-content: center;
+    }
+
+    #roadcon{
+        left: 0;
+        width: 300%;
+        height: 100%;
+        text-align: center;
+
+    }
+
+    #roadcol , .col-8{
+        font-size:13px;
+        width: 80vw;
+
+    }
+
+    .contact_text{
+        margin:auto;
+        height: 100%;
+        padding: 10px;
+        width: 100%;
+        border: 1px red solid;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+
+        transform: translateY(-100%);
+    }
+    #gcon {
+        display: none;
+    }
+    .story-textbox {
+        padding: 0;
+        display: flex;
+        left: 0;
+
+    }
+    .storysubtilte{
+        transform: translateY(-50vw);
+    }
+    .button_case{
+        transform : translateY(40vw);
+    }
+}
+
+@media screen and (max-width :580px) {
+    .contact_text{
+        /*background: red;*/
+        padding: 10px;
+        transform: translateY(-100%);
+
+    }
+    .story-textbox{
+        margin: 0;
+        width: 85%;
+        height: 100%;
+    }
+    .storysubtilte{
+        left: 0;
+        position: relative;
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        transform: translateX(-41vw);
+    }
+    .button_case{
+        transform: translateY(-6.5vh);
+    }
+}
+
+/*삼성갤럭시 s20울트라*/
+@media screen and (max-width:412px) and (max-height: 915px) {
+
+
+    .eth, .nft, .img-1{
+        display: none;
+    }
+
+    #p1, #p2, #p3, #p4{
+        width: 100%;
+    }
+    #p3{
+        height: 100%;
+        margin: 0;
+    }
+
+    .col-8{
+        font-size: 3px;
+    }
+
+    .main{
+        display: none;
+    }
+    .roadmap {
+        font-size: 8px;
+        width: 99.9%;
+        padding: 0;
+        padding-bottom: 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 660px) {
+    header {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    /*#gcon{*/
+    /*    display: flex;*/
+    /*    flex-direction: row-reverse;*/
+    /*}*/
+    #vdeos1{
+        width: 150px;
+        height: 200px;
+    }
+
+    #vdeos2{
+        width: 150px;
+        height: 200px;
+    }
+
+    #vdeos3{
+        width: 150px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    .row align-itmes-start{
+        background: red;
+        display: none;
+    }
+    #gcon {
+
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    #vdeos{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+    iframe {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1042px ) {
+    iframe {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+        *{
+            font-size: 16px;
+
+        }
+
+        iframe {
+            width: 250px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1520px) {
+    .contact_container{
+        margin: auto;
+    }
+    .contact_text {
+        color: white;
+        right: 0;
+        /*margin: 100px 100px 100px -35%;*/
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    *{
+        align-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .banner{
+        max-width: 100vw;
+    }
+
+    .s0 {
+
+    position: relative;
+    /*background: rgb(31, 197, 144) url("COLLECTION_1.png");*/
+    background-blend-mode: multiply;
+
+    background-size: contain;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+    header {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10000;
+    }
+
+    header .logo {
+        display: none;
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        Letter-spacing: 2px;
+    }
+
+    header ul {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header ul li {
+        list-style: none;
+        margin-left: 20px;
+
+    }
+
+    header ul li a {
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 6px 15px;
+        color: grey;
+    }
+
+    header ul li a:hover, header ul li a.active {
+        background: #c53030;
+        color: #2b1055;
+    }
+}
